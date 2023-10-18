@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    gap: calc((100% - 5px) / 5);
+}
+
+.dashboard {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width : 300px;
+    background-color: rgb(8, 8, 8);
+}
+
+.cardHeading1 {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.cardHeading1 span{
+    background-color: whitesmoke;
+}
+
+.image {
+    margin-right: 5px;
+    position: relative;
+    display : inline-block;
+    width: 15px; 
+    height: 15px;  
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.selectList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
